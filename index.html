@@ -14,7 +14,7 @@
         <nav>
             <ul>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Catalog</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
                 <li><a href="#">About Us</a></li> 
             </ul>
         </nav>
@@ -48,25 +48,25 @@
             <ul>
                 <li>
                     <a href="#">
-                       <img src="images/goods1.png" alt="" width="244" height="177">
+                       <img src="images/goods1.png" alt="" width="280" height="270">
                        <p>APPAREL KIDS</p>   
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                       <img src="images/goods2.png" alt="" width="208" height="244">
+                       <img src="images/goods2.png" alt="" width="280" height="270">
                        <p>HOLIDAY SHOP</p>   
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                       <img src="images/goods3.png" alt="" width="270" height="270">
+                       <img src="images/goods3.png" alt="" width="280" height="270">
                        <p>TOYS</p>   
                     </a>
                 </li>   
                 <li>
                     <a href="#">
-                       <img src="images/goods4.png" alt="" width="240" height="250">
+                       <img src="images/goods4.png" alt="" width="280" height="270">
                        <p>ACCESSORIES</p>   
                     </a>
                 </li>                
@@ -213,5 +213,36 @@
             Web Design — <a href="#">Direct Line Development</a>
         </div>        
     </footer>
+
+    <div class="modal__form">
+        <h2 class="hidden">Modal Window</h2>
+        <form action="" method="POST">
+			<fieldset>
+				<div>
+					<label for="input-name">Name</label>
+					<input type="text" id="input-name" placeholder="Ivan Ivanov">
+				</div>
+			</fieldset>
+			<fieldset>
+				<div>
+					<label for="input-phone">Phone</label>
+					<input type="tel" id="input-phone">
+				</div>
+				<div>
+					<label for="input-email">Email</label>
+					<input type="email" id="input-email">
+				</div>
+			</fieldset>
+			<fieldset>
+				<label for="input-message">Message</label>
+				<textarea id="input-message">Message</textarea>
+			</fieldset>
+            <fieldset>
+                <input type="checkbox" id="input-consent">
+                <label for="input-consent">By clicking on the button, you consent to the processing of your personal data</label>
+            </fieldset>
+            <input type="submit" value="SUBMIT">    
+        </form>
+    </div>
 </body>
 </html>
