@@ -128,3 +128,8 @@
 	color: #FFFFFF;
 	text-transform: uppercase;
 }
+
+.wrapper {
+	position: relative;
+	display: flex;
+}
