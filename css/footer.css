@@ -1,0 +1,160 @@
+
+.footer-section {
+	background: #434343;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight:400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	padding-top:100px;
+}
+
+.footer {
+	background: lime;
+	background: #434343;
+	height: 455px;
+}
+.footer p {
+	margin:0px 0px 0px 0px;
+}
+.footer h3 {
+	margin:0px 0px 22px 0px;
+}
+.footer li{
+	margin: 15px 0px 0px 0px;
+}
+.footer ul li:first-child {
+	margin: 28px 0px 0px 0px;
+}
+.footer ul li:last-child {
+	margin: 15px 0px 29px 0px;
+}
+
+.top-div {
+	display: flex;
+	justify-content: space-between;
+}
+.top-div div,
+.bottom-div div {
+	width: 380px;
+}
+.bottom-div	{
+	padding: 22px 0px 0px 0px;
+}
+	
+.footer h3 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight:400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 22px;
+	font-size: 16px;
+	line-height: 22px;
+	color: #AAAAAA;
+}	
+.footer a {
+	color: #A2A2A2;
+}
+.footer a:hover,
+.footer a:active {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+	
+.footer ul a{
+	color: #FFFFFF;
+}
+.footer ul a:hover{
+	opacity: 0.5;
+}
+.footer ul a:active{
+	opacity: 0.2;
+}
+.footer ul {
+	padding:0; 
+	width: 100%;
+	border-top: 1px solid #666666;
+}
+.bottom-div {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #666666;
+}
+.rating-box {
+	display:flex;
+}
+.social {
+	display: block;
+}
+.social a {
+	margin-right: 6px;
+}
+
+.footer .stars {
+	margin-left: 27px;
+}
+.social-bar a {
+	text-decoration: none;
+}
+.social-bar {
+	margin-top: 25px;
+}
+
+.button-footer {
+    width: 81px;
+    height: 40px;
+	margin-left: -11px;
+	margin-top:-1px;
+	border: none;
+}
+.button-edit {
+    width: 305px;
+    height: 40px;
+    padding: 9px 13px 9px 13px;
+    color: #EBEBEB;
+    background-color: #666666;
+	border: none;
+}
+.button-edit:hover,
+.button-edit:active {
+    border: 1px solid #FFFDFD;
+}
+.button-edit::placeholder {
+	color: #EBEBEB;	
+}
+/* Stars */
+.star {
+	width: 300px;
+	height: 30px;
+	display:flex;
+	flex-direction:row-reverse;
+	background: #434343;
+}
+.star svg:hover path {
+	fill:#836E5B;
+}
+.star label:hover ~ label svg path {
+	fill:#836E5B;
+}
+.star .radio:checked ~ label svg path {
+	fill:#836E5B;
+}
+.star .radio:checked ~ * {
+	color:#836E5B;
+}
+
+.star-span {
+	margin-right: 20px; 
+	color: #FFFFFF;
+}
+.star label {
+	padding-left:5px;
+}
+.star {
+	margin-right:142px;
+}
+.star label:hover ~ * {
+	color:#836E5B;
+}
+
