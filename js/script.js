@@ -1,4 +1,4 @@
-var btn = document.querySelector('.slider-btn');
+var btn = document.querySelector('.slider-button');
 var form = document.querySelector('.modal-form');
 var overlay = document.querySelector('.overlay');
 var close = document.querySelector('.btn-close');
