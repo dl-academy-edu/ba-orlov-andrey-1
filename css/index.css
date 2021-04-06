@@ -90,7 +90,7 @@
 }
 
 /* BUTTONS */
-.button {
+.btn {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -108,13 +108,13 @@
 	padding: 0px;
 	margin: 29px 0 0 0;
 }
-.button:hover {
+.btn:hover {
 	background: #C29974;
 }
-.button:active {
+.btn:active {
 	background: #CFAF91;
 }
-.button:disabled {
+.btn:disabled {
 	background: #C1C1C1;
 	color: #E1E1E1;
 }
