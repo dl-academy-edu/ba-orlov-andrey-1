@@ -358,29 +358,38 @@ ul {
 .star {
 	width: 300px;
 	height: 30px;
-	display:flex;
-	flex-direction:row-reverse;
+	display: flex;
+	flex-direction: row-reverse;
 	background: #434343;
 }
 .star svg:hover path {
-	fill:#836E5B;
+	fill: #836E5B;
 }
 .star label:hover ~ label svg path {
-	fill:#836E5B;
+	fill: #836E5B;
 }
 .star .radio:checked ~ label svg path {
-	fill:#836E5B;
+	fill: #836E5B;
 }
 .star .radio:checked ~ * {
 	color:#836E5B;
 }
-
 .star-span {
 	margin-right: 20px;
 	color: #FFFFFF;
 }
+.star .radio:focus + label {
+	color: #836E5B;
+	border-color: #FFFFFF;	
+}
 .star label {
-	padding-left:5px;
+	width:16px;
+	margin-left:2px;
+	height:18px;
+	line-height: 16px;
+	border: 1px solid transparent;
+	border-radius: 30%;
+	cursor: pointer;
 }
 .star {
 	margin-right:142px;
